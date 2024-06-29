@@ -9,9 +9,10 @@ public class PalindromeNumbersCheck {
 		int sum=0;
 		int r;
 		int temp;
+		int n;
 		for(int i=0;i<arr.length;i++) {
 			temp=arr[i];
-			int n=arr[i];
+			n=arr[i];
 			while(n>0) {
 				r=n%10;
 				sum=(sum*10)+r;
