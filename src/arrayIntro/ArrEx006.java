@@ -14,7 +14,7 @@ public class ArrEx006 {
 				}
 			}
 		}
-		if(flag==3) {
+		if(flag==arr2.length) {
 			System.out.println("Array 2 is Sub Element of Array 1");
 		}else {
 			System.out.println("Array 2 is Not a Sub Element of Array 1");
