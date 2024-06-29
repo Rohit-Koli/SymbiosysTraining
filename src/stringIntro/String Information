@@ -1,0 +1,15 @@
+Non Premitive - size is not fixed 
+
+Ex: String ,array
+Its Like a array of characters
+
+1) Literal Method :
+	String s ="abc";
+2) new keyword
+	String s = new String ("ABC");
+
+String is immutable
+Its a individual class
+It store elements in Heap Memory (In SCP area)
+String class implements some interfaces :
+	Serializable, comparable, charSequence
