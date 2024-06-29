@@ -13,3 +13,29 @@ Its a individual class
 It store elements in Heap Memory (In SCP area)
 String class implements some interfaces :
 	Serializable, comparable, charSequence
+	
+*) StringBuffer
+	comes under java.lang package
+	default value 16b
+	StringBuffer is synchronized class 
+		eg. Thread Safe
+		Limited Number of thread works
+	
+	It is faster than String class 
+	It is mutable class
+	
+*)StringBuilder
+	It is mutable class
+	default size is 18bts
+	It is non-synchronized
+		i.e Non-thread safe
+		Unlimited Number of thread works together
+	Efficient than string and StringBuffer
+	comes under java.lang
+	new capacity =(2*oldCapacity)+2
+	
+	
+	
+	
+	
+	
