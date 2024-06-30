@@ -1,0 +1,16 @@
+Exception Handling :
+	Programmer Mistakes
+	Abnormal Condition
+	
+	Exception :
+	types:
+		checked Exception:
+			compile time Exception
+		unchecked Exception :
+			Runtime Exception
+Finally Block:
+	It should be the last statement of program
+	It is executed always , Exception occurs or not 
+	
+	
+		
