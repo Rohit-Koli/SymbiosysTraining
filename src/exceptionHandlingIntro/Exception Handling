@@ -6,11 +6,34 @@ Exception Handling :
 	types:
 		checked Exception:
 			compile time Exception
+				extend the class CompileTimeException
 		unchecked Exception :
 			Runtime Exception
+				extend the class RuntimeException
+				
+	We can skip catch block nut we have to use finally block to use try 
 Finally Block:
 	It should be the last statement of program
-	It is executed always , Exception occurs or not 
+	It is executed always ,whether Exception occurs or not
+
+Custom Exception :
+	user defined exception
+	we can create our own exception 
+	
+	
+throw keyword :
+	we can able to pass the exception to another class
+	we can pass custom exception as well as predefined exceptions also
+	
+	ex :
+	if(marks<40)
+		throw new InvalidMarksException();
+		
+	we cannot use any statement after the throw keyboard
+		
+throws keyword:
+	
+
 	
 	
 		
