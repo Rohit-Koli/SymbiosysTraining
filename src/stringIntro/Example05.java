@@ -16,7 +16,7 @@ public class Example05 {
 		for(char c:ch) {
 			System.out.print(c);
 		}
-		System.out.println(new String(ch));
+//		System.out.println(new String(ch));
 	}
 
 }
