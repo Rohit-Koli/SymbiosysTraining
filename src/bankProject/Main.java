@@ -26,7 +26,7 @@ public class Main {
 
 	public void BalanceEnquiry() {
 		System.out.println("Your account balance is : " + amt);
-	}
+	} 
 
 	public void BalanceDeposit(long amount) {
 		amt += amount;
