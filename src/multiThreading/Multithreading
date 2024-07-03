@@ -1,0 +1,7 @@
+Multithreading :
+ 
+	process :task
+	Thread:
+		Smallest unit of process
+				
+		we can create Thread by using thread and Runnable
