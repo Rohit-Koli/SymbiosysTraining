@@ -31,7 +31,9 @@ throw keyword :
 		
 	we cannot use any statement after the throw keyboard
 		
-throws keyword:
+Important :
+	we cannot throws checked exception through override methods if we have to throws any exception
+	then we have to throw it through it's parent class 
 	
 
 	
