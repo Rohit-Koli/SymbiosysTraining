@@ -9,7 +9,6 @@ public class MultithreadingIntro extends Thread{
 		}
 	}
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		MultithreadingIntro mult = new MultithreadingIntro();
 		mult.run();
 	}
