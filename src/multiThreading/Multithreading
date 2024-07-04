@@ -5,3 +5,18 @@ Multithreading :
 		Smallest unit of process
 				
 		we can create Thread by using thread and Runnable
+	sleep method:
+		use to stop the tread
+		Ex:
+			Thread.sleep(miliSeconds);
+	
+	Priority :
+		We can set priority of thread using t.setPriotity() method
+		FOr more refrrence visit ThreadPriority.java file and Example05
+	
+Yield Method :
+	We add the current thread into a runnable state and run another thread 
+	
+	
+	
+	
