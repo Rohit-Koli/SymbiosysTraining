@@ -6,4 +6,5 @@
  *
  */
 module SymbiosysTraining {
+	requires java.sql;
 }
