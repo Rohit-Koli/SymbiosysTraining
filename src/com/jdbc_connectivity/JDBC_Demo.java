@@ -24,7 +24,7 @@ public class JDBC_Demo{
 			
 			Connection con =DriverManager.getConnection(url,uname,pass);
 			Statement st =con.createStatement();
-			st.execute("insert into stud values (2,'Sachin',89)");
+			st.execute("insert into stud values (1,'Sachin',89)");
 			ResultSet rs =st.executeQuery("select * from stud");
 			
 			while(rs.next()) {
